@@ -1,0 +1,8 @@
+2020/07/21 14:08:43 [emerg] 4152#2780: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/21 14:08:53 [emerg] 11116#9688: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/21 14:09:44 [emerg] 15536#11204: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/21 14:09:55 [emerg] 1872#2904: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/21 14:12:25 [emerg] 264#15688: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/21 14:12:35 [emerg] 3316#8956: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/22 14:30:19 [emerg] 8572#5592: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))
+2020/07/22 14:30:29 [emerg] 13016#12972: bind() to 0.0.0.0:80 failed (10013: FormatMessage() error:(15100))

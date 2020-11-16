@@ -1,0 +1,14 @@
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\bin\Debug\NbrMystereWPF.exe.config
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\bin\Debug\NbrMystereWPF.exe
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\bin\Debug\NbrMystereWPF.pdb
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF.csprojAssemblyReference.cache
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\MainWindow.g.cs
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\App.g.cs
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF_MarkupCompile.cache
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF_MarkupCompile.lref
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\MainWindow.baml
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF.g.resources
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF.Properties.Resources.resources
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF.csproj.GenerateResource.cache
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF.exe
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\NbrMystereWPF\obj\Debug\NbrMystereWPF.pdb

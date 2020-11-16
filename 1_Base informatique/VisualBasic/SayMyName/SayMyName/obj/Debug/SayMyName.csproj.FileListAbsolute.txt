@@ -1,0 +1,6 @@
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\SayMyName\bin\Debug\SayMyName.exe.config
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\SayMyName\bin\Debug\SayMyName.exe
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\SayMyName\bin\Debug\SayMyName.pdb
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\SayMyName\obj\Debug\SayMyName.csprojAssemblyReference.cache
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\SayMyName\obj\Debug\SayMyName.exe
+C:\Users\kev59\Desktop\programation\VisualBasic\SayMyName\SayMyName\obj\Debug\SayMyName.pdb

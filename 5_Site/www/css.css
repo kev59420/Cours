@@ -1,0 +1,133 @@
+*{
+
+	/* font : style variant weight size/line-height family */
+	
+	font-style: normal italic oblique;
+	font-variant:;
+	font-weight: normal lighter bold bolder 700;
+	font-size: px em rem % smaller;
+	line-height: px;
+	font-family: GOOGLE police,webpolice,sans-resif;
+	
+	/* text */
+	
+	text-align: left right center justify;
+	text-transform: none lowercase uppercase capitalize;
+	/*text-decoration : line style color*/
+	text-decoration-line: underline overline line-through ;
+	text-decoration-style: solid double dotted dashed wavy;
+	text-decoration-color: red;
+	text-indent: px em %;
+	text-shadow: px(horizontal) px(vertical) px(rayon de flou) red(couleur);
+	
+	/* list-style */
+	
+	list-style-type: 1 I i A a circle;
+	list-style-position:;
+	
+	/* espacement */ 
+	
+	line-height: px em % ect;
+	letter-spacing: px em % ect;
+	word-spacing: px em % ect;
+	
+	/* color */
+	
+	color: red yellow RGB(0,0,0) #FFFFFF HSL(degres, saturation %, luminosité %);
+	
+	/* opacité */
+
+	opacity: de 0 (transparent) à 1 (opaque);
+	color: RGBa(0,0,0,0.5(opacité);
+	visibility:hidden;
+
+	/* les boites */
+	
+	/*affichage*/
+	
+	display: none contents block inline inline-(block flex list-item table grid);
+	
+	/*dimention*/
+	
+	width: px em %;
+	height: px em %;
+	overflow: hidden scroll;
+	box-sizing: content-box border-box;
+	
+	/*padding : top right bottom left*/
+	
+	padding: px %; 
+
+	/*border(-top right bottom left) : width style color */
+	
+	border-width: thin medium thick em px;
+	border-style: solid double dotted dashed groove ridge inset outset;
+	border-color: red yellow RGB(0,0,0) #FFFFFF HSL(degres, saturation %, luminosité %);
+	
+	/*border(-top bottom )(-left right )-radius : X/Y */
+	
+	border-radius: px %/px %;
+	
+	/*margin : top right bottom left*/
+	
+	margin: px % auto;
+	
+	/* position : */
+	
+	position: static(par defaut) relative absolute fixed sticky;
+	left: px;
+	top: px;
+	right: px;
+	bottom: px;
+	z-index:;
+	float: left right none inline-start inline-end;
+	clear: left right both inline-start inline-end;
+	
+	/* tableaux */
+	
+	border-collapse: separate collapse;
+	border-spacing: px;
+	table-layout: auto(defaut) fixed;
+	empty-cells: show hide;
+	caption-side: top bottom;
+	vertical-align: top middle bottom;
+	
+	/*background : image position/size repeat attachment origin clip color*/
+	
+	background-image: url(img),url(img) (défaut = none);
+	background-position: top right bottom left px (défaut 0 0);
+	background-size: contain cover px %(défaut = auto); 
+	background-repeat: repeat(defaut) no-repeat round space repeat-x repeat-y;
+	background-attachment: scroll (defaut) fixed local;
+	background-origin: padding-box (defaut) border-box content-box;
+	background-clip: padding-box (defaut) border-box content-box;
+	background-color: transparent (defaut) red yellow RGB(0,0,0) #FFFFFF HSL(degres, saturation %, luminosité %);
+	
+	/*degradé*/
+	
+	background: linear-gradient(voir cours) ;
+	background: radial-gradient(voir cours);
+	
+	/*box-shadow : inset, decalage horizontal, decalage vertical, rayon de flou, rayon d'etendu de l'ombre, couleur */
+	
+	box-shadow : inset(facultatif) px px px px;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

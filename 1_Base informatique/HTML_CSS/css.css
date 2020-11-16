@@ -1,0 +1,222 @@
+*{
+
+	/* font : style variant weight size/line-height family */
+	
+	font-style: normal italic oblique;
+	font-variant:;
+	font-weight: normal lighter bold bolder 700;
+	font-size: px em rem % smaller;
+	line-height: px;
+	font-family: GOOGLE police,webpolice,sans-resif;
+	
+	/* text */
+	
+	text-align: left right center justify;
+	text-transform: none lowercase uppercase capitalize;
+	
+	/*text-decoration : line style color*/
+	
+	text-decoration-line: underline overline line-through ;
+	text-decoration-style: solid double dotted dashed wavy;
+	text-decoration-color: red;
+	
+	text-indent: px em %;
+	text-shadow: px(horizontal) px(vertical) px(rayon de flou) red(couleur);
+	
+	/* list-style */
+	
+	list-style-type: 1 I i A a circle;
+	list-style-position:;
+	
+	/* espacement */ 
+	
+	line-height: px em % ect;
+	letter-spacing: px em % ect;
+	word-spacing: px em % ect;
+	
+	/* color */
+	
+	color: red yellow RGB(0,0,0) #FFFFFF HSL(degres, saturation %, luminosité %);
+	
+	/* opacité */
+
+	opacity: de 0 (transparent) à 1 (opaque);
+	color: RGBa(0,0,0,0.5(opacité);
+	visibility:hidden;
+	
+	/*affichage*/
+	
+	display: none contents block inline inline-(block flex list-item table grid);
+	
+	/*dimention*/
+	
+	width: px em %;
+	height: px em %;
+	overflow: hidden scroll;
+	box-sizing: content-box border-box;
+	
+	/*padding : top right bottom left*/
+	
+	padding: px %; 
+
+	/*border(-top right bottom left) : width style color */
+	
+	border-width: thin medium thick em px;
+	border-style: solid double dotted dashed groove ridge inset outset;
+	border-color: red yellow RGB(0,0,0) #FFFFFF HSL(degres, saturation %, luminosité %);
+	
+	/*border(-top bottom )(-left right )-radius : X/Y */
+	
+	border-radius: px %/px %;
+	
+	/*margin : top right bottom left*/
+	
+	margin: px % auto;
+	
+	/* position : */
+	
+	position: static(par defaut) relative absolute fixed sticky;
+	left: px;
+	top: px;
+	right: px;
+	bottom: px;
+	z-index:;
+	float: left right none inline-start inline-end;
+	clear: left right both inline-start inline-end;
+	
+	/* tableaux */
+	
+	border-collapse: separate collapse;
+	border-spacing: px;
+	table-layout: auto(defaut) fixed;
+	empty-cells: show hide;
+	caption-side: top bottom;
+	vertical-align: top middle bottom;
+	
+	/*background : image position/size repeat attachment origin clip color*/
+	
+	background-image: url(img),url(img) (défaut = none);
+	background-position: top right bottom left px (défaut 0 0);
+	background-size: contain cover px %(défaut = auto); 
+	background-repeat: repeat(defaut) no-repeat round space repeat-x repeat-y;
+	background-attachment: scroll (defaut) fixed local;
+	background-origin: padding-box (defaut) border-box content-box;
+	background-clip: padding-box (defaut) border-box content-box;
+	background-color: transparent (defaut) red yellow RGB(0,0,0) #FFFFFF HSL(degres, saturation %, luminosité %);
+	
+	/*degradé*/
+	
+	background: linear-gradient(voir cours) ;
+	background: radial-gradient(voir cours);
+	
+	/*box-shadow : inset, decalage horizontal, decalage vertical, rayon de flou, rayon d'etendu de l'ombre, couleur */
+	
+	box-shadow : inset(facultatif) px px px px;
+	
+	/*transition : property duration timing-function delay*/
+	
+	transition-property : propriété css ;
+	transition-duration : temps en seconde ;
+	transition-timing-function : ease, linear, ease-in, ease-out, ease-in-out, cuic-bezier(x1,y1,x2,y2);
+	transition-delay : temps en seconde;
+	
+	/*animation: name duration timing-function delay iteration-count direction fill-mode play-state (voir cours) */
+	
+	animation-name:;
+	animation-duration:;
+	animation-timing-function:ease, linear, ease-in, ease-out, ease-in-out, cuic-bezier(x1,y1,x2,y2);
+	animation-delay:temps en seconde;
+	animation-iteration-count:chiffre infinite;
+	animation-direction:normal reverse alternate alternate-reverse;
+	animation-fill-mode:backwards forwards both;
+	animation-play-state:running paused;
+
+	
+	/*
+	 @keyframes couleur{
+			from{
+			propriété;
+		}
+		25%{
+			propriété;
+		}
+		50%{
+			propriété;
+		}
+		to{
+			propriété;
+		}
+	}
+	*/
+	
+	
+	/* Transformation (voir cours) */ 
+	
+	transform-origin: x y ;
+	transform: translate(px) rotate (xdeg) scale(x,y) skewX(xdeg) skewY(xdeg)matrix() perspective(px) translate3d(px,px,px);
+	
+	
+	/* Boites Flexibles */ 
+	
+	/* Elements conteneur */ 
+	
+	/*flex-flow: direction wrap */
+	
+	flex-direction: row row-reverse column column-reverse;
+	flex-wrap: nowrap wrap wrap-reverse;	
+	
+	justify-content: flex-start flex-end center space-between space-around space-evenly; 
+	align-items: stretch flex-start flex-end center baseline;
+	align-content: stretch flex-start flex-end center space-between space-around;
+	
+	/* Elements Flexibles */ 
+	
+	/* flex: grow shrink basis */
+	
+	flex-basis: % auto;
+	flex-grow: chiffre;
+	flex-shrink: chiffre;
+	
+	order : chiffre;
+	align-self: stretch flex-start flex-end center baseline;
+	
+	
+	/*Responsive (voir cours) */
+	
+	/* @media screen and (min-width:980px){
+	}
+	*/
+	
+	
+	/* Les grilles */
+	
+	/* Elements conteneur */ 
+	
+	grid-template-columns: px xfr repeat() minmax();
+	grid-template-rows: px xfr repeat() minmax();
+	grid-template-area: "" "" "";
+	grid-auto-rows: px xfr repeat() minmax();
+	grid-auto-columns: px xfr repeat() minmax();
+	
+	
+	
+	/* Elements Flexibles */ 
+	
+	/*grid-column: x/x */
+	
+	grid-column-start:x;
+	grid-column-end:x;
+	
+	/*grid-row: */
+	
+	grid-row-start:x;
+	grid-row-end:x;
+	grid-area: x/x/x/x;
+	
+	
+	
+	
+	
+	
+	
+}
